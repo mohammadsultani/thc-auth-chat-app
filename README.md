@@ -9,3 +9,5 @@ To start frontend => npm run serve
 To start backend => node index.js
 
 Create a .env file and paste the Mongo DB connection string inside it.
+
+The link to deployed app https://auth-chat-app.herokuapp.com
