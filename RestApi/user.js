@@ -22,7 +22,7 @@ router.post('/login', async (req, res) => {
                     res.json({ userName: user.userName, token })
                 })
             }
-            // Wring password
+            // Wrong password
             else return res.status(400).json('Invalid credential')
         })
     } catch (err) {
